@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>THEMIS</title>
+	<link rel="stylesheet" href="..\css\style.css">
+</head>
+
+<body>
+
+	<div> 
+		<form id="entrar" id="form" action="pagina-inicial.html" class="form" method="POST">
+			<h1>Login Usuário</h1><br>
+			<input id="email" type="text" name="email" required placeholder="Email"><br>
+			<span class="error-message"></span>
+
+			<input id="senha" type="password" name="senha" required placeholder="Senha"><br><br>
+			<span class="error-message"></span>
+			<a onclick="init()" id="cadastrar" href="cadastro.html">Ainda não é cadastrado?</a><br>
+			<a onclick="init()" id="teste" href="cadastrar">teste</a>
+			<button type="submit">Entrar</button>
+		</form>
+		
+	</div>
+	<script src="..\js\login.js"></script>
+</body>
+</html>
